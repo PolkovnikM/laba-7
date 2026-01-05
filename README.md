@@ -134,3 +134,16 @@ order-payment-system/
 git clone https://github.com/PolkovnikM/laba-7.git
 cd ~/laba-7
 ```
+### 2. Запуск тестов
+```
+# Все тесты
+python -m pytest tests/ -v
+
+# Только тесты домена
+python -m pytest tests/test_domain.py -v
+
+# Только тесты use case
+python -m pytest tests/test_pay_order_use_case.py -v
+```
+### 3. Тест 
+в файле practise.py
