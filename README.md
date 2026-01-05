@@ -126,3 +126,11 @@ order-payment-system/
 ├── requirements.txt
 
 └── README.md
+
+## Установка и запуск
+
+### 1. Клонирование репозитория
+```bash
+git clone https://github.com/PolkovnikM/laba-7.git
+cd ~/laba-7
+```
