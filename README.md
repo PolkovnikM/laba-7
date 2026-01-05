@@ -7,7 +7,11 @@
 
 ### Слоистая структура (Clean Architecture + DDD-lite)
 order-payment-system/
+
 ├── domain/ # Бизнес-логика и доменная модель
+
 ├── application/ # Use Cases и интерфейсы (Ports)
+
 ├── infrastructure/ # Реализации интерфейсов
+
 └── tests/ # Модульные тесты
