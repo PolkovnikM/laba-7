@@ -59,14 +59,23 @@ order-payment-system/
 
 ## Структура проекта
 order-payment-system/
+
 ├── src/
+
 │ ├── domain/
+
 │ │ ├── init.py
+
 │ │ ├── money.py # Value Object Money
+
 │ │ ├── order_status.py # Enum OrderStatus
+
 │ │ ├── order_line.py # Entity OrderLine
+
 │ │ └── order.py # Aggregate Root Order
+
 │ │
+
 │ ├── application/
 │ │ ├── init.py
 │ │ ├── use_cases/
