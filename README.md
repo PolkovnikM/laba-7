@@ -77,28 +77,52 @@ order-payment-system/
 │ │
 
 │ ├── application/
+
 │ │ ├── init.py
+
 │ │ ├── use_cases/
+
 │ │ │ ├── init.py
+
 │ │ │ └── pay_order_use_case.py # Use Case
+
 │ │ └── ports/
+
 │ │ ├── init.py
+
 │ │ ├── order_repository.py # Интерфейс
+
 │ │ └── payment_gateway.py # Интерфейс
+
 │ │
 │ └── infrastructure/
+
 │ ├── init.py
+
 │ ├── repositories/
+
 │ │ ├── init.py
+
 │ │ └── in_memory_order_repository.py # Реализация
+
 │ └── payment_gateways/
+
 │ ├── init.py
+
 │ └── fake_payment_gateway.py # Реализация
+
 │
+
 ├── tests/
+
 │ ├── init.py
+
 │ ├── test_domain.py # Тесты домена
+
 │ └── test_pay_order_use_case.py # Тесты Use Case
+
 │
+
 ├── requirements.txt
+
 └── README.md
